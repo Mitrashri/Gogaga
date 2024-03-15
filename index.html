@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gogaga Holidays</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <h2 class="logo"><img src="logo.jpg" class="logostyle" /></h2>
+      <nav class="navigation pt-sm-3">
+        <a href="#" class="active">Home</a>
+        <a href="#packages">Packages</a>
+        <a href="#flights">Flights</a>
+        <a href="#hotels">Hotels</a>
+        <a href="#">About us</a>
+        <a href="#">Login</a>
+      </nav>
+    </header>
+    <div
+      class="bg d-flex flex-column justify-content-end align-items-center b-5"
+    >
+      <h1 class="bghead pt-4">Gogaga Holidays</h1>
+      <h4 class="bghead" style="font-size: 30px">
+        Experience the most wonderful travel experience with us
+      </h4>
+    </div>
+    <div id="packages" class="container mt-5">
+      <h1 class="headpack">Holiday Packages</h1>
+      <div class="row">
+        <div class="packCards d-flex flex-row">
+          <div
+            class="col-2 card1 d-flex flex-column justify-content-end align-items-center"
+          >
+            <h2 class="cardHead">Goa</h2>
+            <p class="cardHead" style="font-size: 25px">
+              Range starts from INR 8,999
+            </p>
+          </div>
+          <div
+            class="col-2 card2 d-flex flex-column justify-content-end align-items-center"
+          >
+            <h2 class="cardHead">Andaman</h2>
+            <p class="cardHead" style="font-size: 25px">
+              Range starts from INR 9,999
+            </p>
+          </div>
+          <div
+            class="col-2 card3 d-flex flex-column justify-content-end align-items-center"
+          >
+            <h2 class="cardHead">Himachal</h2>
+            <p class="cardHead" style="font-size: 25px">
+              Range starts from INR 11,999
+            </p>
+          </div>
+          <div
+            class="col-2 d-flex flex-column justify-content-end align-items-center"
+          >
+            <h2 class="cardHead">Rajasthan</h2>
+            <p class="cardHead" style="font-size: 25px">
+              Range starts from INR 13,999
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="flights" class="container">
+      <h1 class="headpack" style="padding-top: 30px">Flights</h1>
+      <h2 class="cardHead" style="color: #517575">
+        Search for your flights here...
+      </h2>
+      <input type="search" class="searchBar" placeholder="Search for flights" />
+      <div class="row">
+        <div class="flightBook d-flex flex-row mt-3 col-8">
+          <img src="flight.jpg" height="400px" width="30%" />
+          <div class="d-flex flex-column p-5" style="width: 50%">
+            <label for="Place" class="labelHead">Destination:</label>
+            <input
+              type="text"
+              id="Place"
+              class="m-3"
+              placeholder="Enter destination"
+              style="padding: 10px"
+              width="50%"
+            />
+            <label for="DepartureDate" class="labelHead">Departure Date:</label>
+            <input type="date" id="DepartureDate" class="m-3 searchBar" />
+            <button
+              class="btn btn-success"
+              style="border-radius: 20px; width: 80px"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="hotels" class="container d-flex flex-column mt-5">
+      <h1 class="headpack">Hotels</h1>
+      <p
+        style="
+          font-weight: 300;
+          color: #3e3e3e;
+          font-size: 23px;
+          font-weight: 500;
+        "
+      >
+        Whether you seek the opulent opulence of a five-star resort or the cozy
+        charm of a boutique inn, we pride ourselves on curating a selection that
+        caters to every traveler's taste and preference. With seamless booking
+        processes and expertly crafted itineraries at your fingertips, embark on
+        a voyage of exploration and relaxation with us. Let us transform your
+        travel dreams into cherished memories, one reservation at a time.
+      </p>
+      <div class="row">
+        <div class="packCards d-flex flex-row">
+          <div
+            class="col-2 card1rest d-flex flex-column justify-content-end align-items-center"
+          >
+            <h2 class="cardHead">TOP HOTELS</h2>
+            <p class="cardHead" style="font-size: 25px">
+              Hotels with top class rating
+            </p>
+          </div>
+          <div
+            class="col-2 card2rest d-flex flex-column justify-content-end align-items-center"
+          >
+            <h2 class="cardHead">TOURIST'S CHOICE</h2>
+            <p class="cardHead" style="font-size: 25px">
+              Most of the tourists loves to spend time here
+            </p>
+          </div>
+          <div
+            class="col-2 card3rest d-flex flex-column justify-content-end align-items-center"
+          >
+            <h2 class="cardHead">BEST FOR SUNRISE</h2>
+            <p class="cardHead" style="font-size: 25px">
+              Best for watching sunrise
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="aboutus" style="margin-top: 40px">
+      <div class="container">
+        <div id="cont" class="row">
+          <div class="con">
+            <div class="det">
+              <h2 class="hed" style="color: #517575; font-style: italic">
+                About Us
+              </h2>
+              <p style="font-weight: 300; color: #517575; font-style: italic">
+                A TRUSTED EXPERIENCE
+              </p>
+              <p class="para">
+                Your next holiday is in hands of an ISO 9001-2005 certified
+                company (Verified under the best service parameters by United
+                Kingdom Certification and Inspection Limited).
+                <br /><br /><br />To-date we have provided memorable holidays
+                for 70k plus customers. To experience the difference in
+                holidaying choose us as your preferred holiday management
+                partner and be rest assured that your holiday is now in safe
+                hands.
+              </p>
+            </div>
+            <div class="cont mt-5">
+              <div class="car card1About col-3">
+                <h2>Safe & Secure Travel</h2>
+                <p>Sanitized Cabs and Secured Hotel Rooms</p>
+              </div>
+              <div class="car card2About col-3">
+                <h2>ISO 9001-2015 Certified</h2>
+                <p>Certified by UK certification and Inspection Limited</p>
+              </div>
+              <div class="car card3About col-3">
+                <h2>24/7 Customer Support</h2>
+                <p>Guaranteed Travel Assistance</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

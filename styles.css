@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 30px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right:270px ;
+}
+.navigation a{
+    padding: 6px 15px;
+    margin:0 10px ;
+    border-radius:20px ;
+    text-decoration: none;
+    font-weight:600 ;
+    color: #359381;
+}
+.navigation a:hover,.navigation a.active{
+    background-color: #359381;
+    color: #fff;
+
+}
+.bg{
+    background-image:url("bghome.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.bghead{
+    font-size:55px;
+    font-weight:bold;
+    font-style:italic;
+    color:#fff
+}
+.logostyle{
+    border-top-left-radius:25px;
+    border-bottom-right-radius:25px;
+}
+.headpack{
+    color:#517575;
+    font-weight:bold;
+    font-style: italic;
+    animation:slideRight 1s ease-in;
+}
+
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+.card1{
+   background-image:url(goa1.jpg);
+   background-size:cover;
+   height:380px;
+   width:280px;
+   margin:20px;
+   border-radius:25px;
+   opacity:0.9;
+}
+.cardHead{
+    font-size:35px;
+    font-weight:bold;
+    color:rgb(237, 228, 228);
+    padding:15px;
+    font-style:italic ;
+}
+
+.card2{
+    background-image:url(andaman.jpg);
+    background-size:cover;
+    height:380px;
+    width:280px;
+    margin:20px;
+    border-radius:25px;
+    opacity:0.9;
+ }
+ .card3{
+    background-image:url(himachal.jpg);
+    background-size:cover;
+    height:380px;
+    width:280px;
+    margin:20px;
+    border-radius:25px;
+    opacity:0.9;
+ }
+ .card4{
+    background-image:url(rajasthan.jpg);
+    background-size:cover;
+    height:380px;
+    width:280px;
+    margin:20px;
+    border-radius:25px;
+    opacity:0.9;
+ }
+ 
+ .card1:hover,.card2:hover,.card3:hover,.card4:hover{
+
+    transform:scale3d(1.1,1.1,1.1);
+ }
+.card1,.card2,.card3,.card4{
+    animation:slideTop 1s ease-in;
+}
+ @keyframes slideTop{
+    0%{
+        transform: translateY(-100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity:1;
+    }
+}
+
+.searchBar{
+    height:45px;
+    width:80%;
+    padding:20px;
+}
+
+.flightBook{
+    height:400px;
+    width:100%;
+    background-color:white;
+}
+
+.labelHead{
+    font-size:medium;
+    font-style: italic;
+    font-weight:bold;
+}
+.con{
+    display: flex;
+}
+.det{
+    width: 300px;
+    margin: 10px;
+}
+.hed{
+    font-weight: bold;
+    font-size: 38px;
+
+}
+.para{
+    font-weight: 600;
+}
+
+.car{
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 10px;
+    padding: 20px;
+}
+.cont{
+    display: flex;
+    justify-content: center;  
+     
+}
+.card1About{
+    background-image: url("leaf.jpg");
+    background-size: cover;
+
+}
+.card2About{
+    background-image: url("trust.jpg");
+    background-size: cover;
+}
+.card3About{
+    background-image: url("home.jpg");
+    background-size: cover;
+}
+
+.card1rest{
+    background-image:url(top.jpg);
+   background-size:cover;
+   height:380px;
+   width:280px;
+   margin:20px;
+   border-radius:25px;
+   opacity:0.9;
+}
+.card2rest{
+    background-image:url(tour.jpg);
+    background-size:cover;
+    height:380px;
+    width:280px;
+    margin:20px;
+    border-radius:25px;
+    opacity:0.9;
+}
+.card3rest{
+    background-image:url(sun.jpg);
+    background-size:cover;
+    height:380px;
+    width:280px;
+    margin:20px;
+    border-radius:25px;
+    opacity:0.9;
+}
